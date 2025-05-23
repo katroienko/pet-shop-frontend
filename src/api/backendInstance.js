@@ -14,4 +14,3 @@ export const backendInstance = axios.create({
     baseURL: VITE_API_URL
 });
 
-export const localUrl = VITE_API_URL;
