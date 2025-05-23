@@ -1,0 +1,20 @@
+/* .list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+ */
+
+ .list {
+  display: grid;
+  /* Задаём адаптивные колонки: минимум 316px (твой min-width карточки), 
+     максимум — растянуться по available space */
+  grid-template-columns: repeat(auto-fill, minmax(316px, 1fr));
+  gap: 30px;
+
+  /* Ограничиваем общую ширину + центрируем */
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 20px;        /* по 20px с каждой стороны = 40px в сумме */
+  box-sizing: border-box; /* чтобы padding учитывался в общей ширине */
+}

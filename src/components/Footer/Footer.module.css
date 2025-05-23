@@ -1,0 +1,71 @@
+.container {
+    max-width: 1440px;
+    /* контейнер в якому контент */
+    padding: 0 40px;
+    margin: 0 auto;
+    /* контейнер по центру */
+    padding-bottom: 80px;
+}
+
+.MapWrapper {
+    width: 1360px;
+    height: 350px;
+    margin-top: 32px;
+
+}
+
+.blockBig {
+    width: 780px;
+    background-color: rgba(241, 243, 244, 1);
+    border-radius: 8px;
+    padding-left: 32px;
+    padding: 32px 0 0 32px;
+    height: 100%;
+}
+
+.blockBig p {
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 110.00000000000001%;
+    letter-spacing: 0%;
+    margin-top: 16px;
+
+}
+
+.blockSmall {
+    width: 548px;
+    height: 100%;
+    background-color: rgba(241, 243, 244, 1);
+    border-radius: 8px;
+    padding: 32px 0 0 32px;
+}
+
+.blockSmall p {
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 110.00000000000001%;
+    letter-spacing: 0%;
+    margin-top: 16px;
+
+}
+
+.contacts {
+    display: flex;
+    gap: 32px;
+    margin-bottom: 32px;
+    height: 150px;
+
+}
+
+.contacts2 {
+    height: 194px;
+    display: flex;
+    gap: 32px;
+}
+
+.iconWrapper {
+    display: flex;
+    gap: 16px;
+}

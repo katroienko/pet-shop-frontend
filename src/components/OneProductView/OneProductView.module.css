@@ -1,0 +1,125 @@
+.cartItemWrapper {
+    display: grid;
+    grid-template-columns: 200px 548px 548px;
+    column-gap: 32px;
+    object-fit: cover;
+    margin-top: 40px;
+}
+
+.smallImg {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    object-fit: cover;
+}
+
+.bigImg {
+    width: 548px;
+    height: auto;
+}
+
+.title {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 110%;
+    letter-spacing: 0.03em;
+    color: #282828;
+    margin-bottom: 32px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.discountPrice {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 110%;
+    color: #282828;
+}
+
+.prises {
+    display: flex;
+    gap: 32px;
+}
+
+.description h2 {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 130%;
+    color: #282828;
+    margin-bottom: 16px;
+}
+
+.description p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    color: #282828;
+}
+
+.prise {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 130%;
+    text-decoration: line-through;
+    color: #8b8b8b;
+
+    display: flex;
+    align-items: end;
+}
+
+.percent {
+    display: inline-block;
+
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 130%;
+    letter-spacing: 0.03em;
+    color: #fff;
+
+    border-radius: 6px;
+    padding: 4px 8px;
+    width: 63px;
+    height: 34px;
+
+    background: #0d50ff;
+}
+
+.actions {
+    display: flex;
+    gap: 32px;
+}
+
+.buttonPlusMinus {
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    width: 58px;
+    height: 58px;
+}
+
+.count {
+    border-bottom: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    width: 96px;
+    height: 58px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.actionButtons{
+    display: flex;
+}
+.btCartOneProduct{
+    width: 316px;
+}

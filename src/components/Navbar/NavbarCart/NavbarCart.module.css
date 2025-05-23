@@ -1,0 +1,21 @@
+.cartWrapper {
+    position: relative;
+}
+
+.numberWrapper {
+    background: rgba(13, 80, 255, 1);
+    color: white;
+    width: 26px;
+    height: 26px;
+    top: 7px;
+    /* font */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+
+    position: absolute;
+    top: 9px;
+
+      
+}

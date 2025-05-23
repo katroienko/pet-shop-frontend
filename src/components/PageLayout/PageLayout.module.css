@@ -1,0 +1,10 @@
+/* .title {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 25px;
+} */
+.container {
+    width: 1440px;
+    padding: 0 40px;
+    margin: 0 auto;
+}

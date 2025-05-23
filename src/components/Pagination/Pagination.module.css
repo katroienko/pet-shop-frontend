@@ -1,0 +1,23 @@
+.wrapper {
+    margin: 15px 0;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+}
+
+.list {
+    margin: 0 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.item {
+    cursor: pointer;
+}
+.item.active {
+    font-weight: 700;
+}
+
+.action {
+    cursor: pointer;
+}

@@ -1,0 +1,31 @@
+.navbarMenuStyle {
+    display: flex;
+    gap: 64px;
+    /* margin-right: 351px;
+    margin-left: 461px;
+    list-style: none; */
+    font-weight: 500;
+    font-size: 20px;
+
+}
+
+
+
+.navbarMenuLinkStyle {
+    text-decoration: none;
+    /* font-size: 15px;
+font-weight: 600; */
+    color: rgba(40, 40, 40, 1);
+
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 130%;
+    letter-spacing: 0%;
+
+
+}
+
+
+&.active {
+    color: #141010;
+}

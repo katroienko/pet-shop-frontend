@@ -1,0 +1,22 @@
+:root {
+  --txtblack: rgba(40, 40, 40, 1);
+  --txtwhite: rgba(255, 255, 255, 1);
+  --white: rgba(255, 255, 255, 1);
+  --btnBlue: rgba(13, 80, 255, 1);
+  --font-family:'Montserrat', sans-serif;
+
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+

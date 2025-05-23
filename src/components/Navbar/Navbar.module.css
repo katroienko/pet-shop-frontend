@@ -1,0 +1,14 @@
+.container {
+    max-width: 1440px;
+    /* контейнер в якому контент */
+    height: 128px;
+    padding: 0 40px;
+    margin: 0 auto;
+    /* контейнер по центру */
+ 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ddd;
+
+}

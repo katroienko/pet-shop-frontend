@@ -1,0 +1,99 @@
+.imgFluid {
+    width: 200px;
+    height: 180px;
+    object-fit: cover;
+}
+
+.cartItemWrapper {
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    width: 780px;
+    height: 180px;
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 32px;
+}
+
+.titleWpapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 130%;
+    color: #282828;
+    margin-bottom: 32px;
+}
+
+.titleWpapper p {
+    margin-right: 50px;
+}
+
+.button {
+    background: transparent;
+    border: none;
+    outline: none;
+    padding: 0;
+    line-height: 1;
+    cursor: pointer;
+}
+
+
+.actions {
+    display: flex;
+    align-items: center;
+}
+
+.totalPrice {
+    margin-left: 32px;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 110%;
+    color: #282828;
+}
+
+.discount {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 130%;
+    text-decoration: line-through;
+    color: #8b8b8b;
+
+}
+
+.button2 {
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    width: 58px;
+    height: 58px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background: transparent;
+}
+
+.actionButtons {
+    display: flex;
+    flex-direction: row;
+}
+
+.count {
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    width: 96px;
+    height: 58px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.totalPrice {
+    margin-right: 16px;
+}

@@ -1,0 +1,25 @@
+
+.btnBanner {
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 6px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  padding: 16px 32px;
+  position: relative;
+  width: 516px;
+}
+
+.addToCart {
+  color: var(--txtblack);
+  flex: 1;
+  font-family: "Montserrat", Helvetica;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 26px;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+} 

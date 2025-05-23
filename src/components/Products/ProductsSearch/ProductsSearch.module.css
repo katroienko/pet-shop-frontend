@@ -1,0 +1,22 @@
+.form {
+    margin-bottom: 25px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.error {
+    color: red;
+    margin-top: 5px;
+}
+
+.inputField {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 8px 16px;
+  width: 200px;
+  height: 36px;
+  box-sizing: border-box; 
+  font-size: 14px;
+  
+}

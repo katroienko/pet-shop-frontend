@@ -1,0 +1,21 @@
+.btnBlue {
+    background-color: var(--btnBlue);
+    color: white;
+    height: 58px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+}
+ .btnBlue:active{
+    background-color: rgba(40, 40, 40, 1);
+    color: var( --white)
+
+}
+
+.addToCart {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 130%;
+    letter-spacing: 0%;
+}

@@ -1,0 +1,24 @@
+.error {
+    color: red;
+}
+
+.sectionCategorie {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* 4 в ряд */
+    gap: 32px;
+    width: 100%;
+
+    
+
+}
+
+.sectionCategorie p{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 130%;
+    text-align: center;
+    color: #282828;
+
+}

@@ -1,0 +1,28 @@
+.container {
+    width: 1360px;
+    height: 310px;
+
+
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 110%;
+    color: #fff;
+
+    position: absolute;
+    top: 80px;
+    left: 40px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.wrapper {
+    position: relative;
+}
+
+.btnCheckout {
+    padding: 16px 56px;
+    width: 218px;
+}
