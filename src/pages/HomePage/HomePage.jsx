@@ -16,7 +16,7 @@ const HomePage = () => {
     <PageLayout >
       <div className={styles.wrapper}>
         <img
-          src="src/assets/papy1.jpg"
+          src="/papy1.jpg"
           alt="papy1"
           style={{
             display: "block",
