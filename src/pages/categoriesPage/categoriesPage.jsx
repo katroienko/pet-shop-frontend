@@ -1,5 +1,6 @@
 import Categories from "../../shared/components/Categories/Categories"
 import PageLayout from "../../shared/components/PageLayout/PageLayout"
+
 import { Breadcrumbs } from "../../shared/components/Breadcrumbs/Breadcrumbs"
 
 function CategoriesPage() {

@@ -1,4 +1,5 @@
 import { backendInstance } from '../../../shared/api/backendInstance';
+
 import styles from './CategoriCart.module.css'
 
 
@@ -16,7 +17,7 @@ function CategoriCart({ id, title, image }) {
                     alt={title}
                 />
             </div>
-            <p>{title}</p>
+            <p className={styles.title}>{title}</p>
         </div>
 
 

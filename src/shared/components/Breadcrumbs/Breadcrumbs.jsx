@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+
 import styles from './Breadcrumbs.module.css';
 
 export function Breadcrumbs({ items }) {
@@ -22,26 +23,3 @@ export function Breadcrumbs({ items }) {
     </nav>
   );
 }
-// 
-
-// import { Link } from 'react-router-dom';
-// import styles from './Breadcrumbs.module.css';
-
-// export function Breadcrumbs({ items }) {
-//   return (
-//     <nav className={styles.breadcrumbs} aria-label="Breadcrumb">
-//       {items.map((item, index) => (
-//         <div key={index} className={styles.breadcrumbItem}>
-//           {index > 0 && <span className={styles.separator}>—</span>}
-//           {item.to ? (
-//             <Link to={item.to} className={styles.link}>
-//               {item.label}
-//             </Link>
-//           ) : (
-//             <span className={styles.current}>{item.label}</span>
-//           )}
-//         </div>
-//       ))}
-//     </nav>
-//   );
-// }

@@ -6,7 +6,6 @@ import CartPage from "./CartPage/CartPage";
 import NotFoundPage from "./NotFoundPage/NotFoundPage";
 import AllsalesPage from "./allsalesPage/allsalesPage";
 import CategoriesPage from "./categoriesPage/categoriesPage";
-// import OneCategoryPage from "./components/Categories/OneCategoryPage/OneCategoryPage";
 import OneCategoryPage from "./OneCategoryPage/OneCategoryPage";
 import OneProductPage from "./OneProductPage/OneProductPage";
 

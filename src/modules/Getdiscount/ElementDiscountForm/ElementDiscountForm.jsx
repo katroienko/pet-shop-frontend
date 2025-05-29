@@ -24,7 +24,8 @@ export const ElementDiscountForm = ({ onOrderPlaced }) => {
         <img
           className={styles.image}
           alt="Image"
-          src="https://c.animaapp.com/matmpppmv4vIJH/img/image.svg"
+          // src="https://c.animaapp.com/matmpppmv4vIJH/img/image.svg"
+          src='src\assets\dogsform.png'
         />
 
         <form onSubmit={handleSubmit(onSubmit)} className={styles.form}>
