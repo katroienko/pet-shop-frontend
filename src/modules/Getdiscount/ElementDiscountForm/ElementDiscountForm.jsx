@@ -25,7 +25,7 @@ export const ElementDiscountForm = ({ onOrderPlaced }) => {
         <img
           className={styles.image}
           alt="dogsForm"
-          src='public/dogsform.png'
+          src='/dogsform.png'
         />
 
         <form onSubmit={handleSubmit(onSubmit)} className={styles.form}>
