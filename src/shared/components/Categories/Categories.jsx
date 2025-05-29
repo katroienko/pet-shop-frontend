@@ -1,11 +1,11 @@
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import {fetchCategories}  from "../../redux/categories/categories-thunks";
+import { fetchCategories } from "../../../redux/categories/categories-thunks";
 
 import Loader from "../Loader/Loader";
 import LoadingError from "../LoadingError/LoadingError";
 import CategoriCart from "../CategoriCart/CategoriCart";
-import Title from "../../components/Title/Title";
+import Title from "../../../shared/components/Title/Title";
 import { Link } from "react-router-dom";
 
 import styles from "./Categories.module.css";
@@ -48,7 +48,7 @@ export default Categories;
 // import LoadingError from "../LoadingError/LoadingError"
 // import CategoriCart from "../CategoriCart/CategoriCart"
 // import useFetch from "../../hooks/useFetch"
-// import Title from "../../components/Title/Title"
+// import Title from "../../shared/components/Title/Title"
 
 // import { getCategoriesAllApi } from "../../api/categories-api"
 // import { Link } from "react-router-dom"

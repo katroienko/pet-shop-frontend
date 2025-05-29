@@ -1,8 +1,5 @@
-
-import { Link } from "react-router-dom";
 import Box from "@mui/material/Box";
-import Button from "@mui/material/Button";
-import Form from "../../Form/Form";
+import Form from "../../../shared/components/Form/Form";
 import Typography from "@mui/material/Typography";
 import { useSelector } from "react-redux";
 import { selectTotalCartItems } from "../../../redux/cart/cart-selectors";

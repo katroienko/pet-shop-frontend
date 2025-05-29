@@ -9,10 +9,11 @@ import {
   addToCart,
 } from "../../redux/cart/cart-actions";
 import { selectCartItemCount } from "../../redux/cart/cart-selectors";
-import styles from "./OneProductPage.module.css";
-import { OneProductView } from "../../components/OneProductView/OneProductView";
+import { OneProductView } from "../../shared/components/OneProductView/OneProductView";
 
-import PageLayout from '../../components/PageLayout/PageLayout'
+import PageLayout from '../../shared/components/PageLayout/PageLayout'
+
+import styles from "./OneProductPage.module.css";
 
 const OneProductPage = () => {
   const { id } = useParams();
@@ -98,7 +99,7 @@ export default memo(OneProductPage);
 // import { useDispatch, useSelector } from "react-redux";
 // import { selectCartItemCount } from "../../redux/cart/cart-selectors";
 
-// import { BtnBlue } from "../../components/BtnBlue/BtnBlue";
+// import { BtnBlue } from "../../shared/components/BtnBlue/BtnBlue";
 
 // const OneProductPage = () => {
 //   const { id } = useParams();

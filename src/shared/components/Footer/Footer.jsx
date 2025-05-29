@@ -1,6 +1,6 @@
 import styles from './Footer.module.css';
-import Instagram from '../../assets/Instagram';
-import Wahtsapp from '../../assets/Wahtsapp';
+import Instagram from '../../../assets/Instagram';
+import Wahtsapp from '../../../assets/Wahtsapp';
 import Title from '../Title/Title';
 import contacts from './contacts';
 

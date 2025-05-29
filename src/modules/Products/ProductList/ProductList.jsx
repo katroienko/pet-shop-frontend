@@ -1,7 +1,8 @@
 import { useState, useCallback } from "react";
 import { useDispatch } from "react-redux";
 
-import Pagination from "../../Pagination/Pagination";
+// import Pagination from "../../../Pagination/Pagination";
+import Pagination from "../../../shared/components/Pagination/Pagination";
 import ProductListPagination from "./ProductListPagination/ProductListPagination";
 
 import ProductListItem from "./ProductListItem/ProductListItem";

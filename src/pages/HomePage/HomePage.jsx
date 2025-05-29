@@ -1,11 +1,11 @@
-import PageLayout from "../../components/PageLayout/PageLayout";
-import ProductsSale from "../../components/ProductsSale/ProductsSale";
-import Title from "../../components/Title/Title";
-import Categories from "../../components/Categories/Categories";
+import PageLayout from "../../shared/components/PageLayout/PageLayout";
+import ProductsSale from "../../shared/components/ProductsSale/ProductsSale";
+import Title from "../../shared/components/Title/Title";
+import Categories from "../../shared/components/Categories/Categories";
 
 import { ElementDiscountForm } from "../../modules/Getdiscount/ElementDiscountForm/ElementDiscountForm";
-import { BtnBlue } from "../../components/BtnBlue/BtnBlue";
- 
+import { BtnBlue } from "../../shared/components/BtnBlue/BtnBlue";
+
 import styles from './HomePage.module.css'
 
 const onClick = () => {

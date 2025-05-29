@@ -1,6 +1,6 @@
 
 
-import PageLayout from "../../components/PageLayout/PageLayout";
+import PageLayout from "../../shared/components/PageLayout/PageLayout";
 import NotFoundContent from "../../modules/NotFound/NotFoundContent";
 import NotFoundImages from "../../modules/NotFound/NotFoundImages/NotFoundImages";
 

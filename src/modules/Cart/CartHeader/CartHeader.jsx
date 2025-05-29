@@ -1,7 +1,7 @@
 import { memo } from "react";
 import Box from "@mui/material/Box";
 import Button from "@mui/material/Button";
-import Title from "../../Title/Title";
+import Title from "../../../shared/components/Title/Title";
 
 import styles from "./styles";
 

@@ -1,5 +1,5 @@
-import Categories from "../../components/Categories/Categories"
-import PageLayout from "../../components/PageLayout/PageLayout"
+import Categories from "../../shared/components/Categories/Categories"
+import PageLayout from "../../shared/components/PageLayout/PageLayout"
 
 
 function CategoriesPage() {

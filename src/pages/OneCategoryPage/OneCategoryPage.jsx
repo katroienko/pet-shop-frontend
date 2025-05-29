@@ -6,11 +6,13 @@ import { addToCart } from "../../redux/cart/cart-actions";
 
 // import { getCategorieById } from "../../../api/categories-api";
 import { getCategorieById } from "../../shared/api/categories-api";
+import ProductListItem from "../../modules/Products/ProductList/ProductListItem/ProductListItem";
 
-import ProductListItem from "../../components/Products/ProductList/ProductListItem/ProductListItem";
-import Title from "../../components/Title/Title";
-import PageLayout from "../../components/PageLayout/PageLayout";
-import ProductsSearch from "../../components/Products/ProductsSearch/ProductsSearch";
+// import ProductListItem from "../../shared/components/Products/ProductList/ProductListItem/ProductListItem";
+import Title from "../../shared/components/Title/Title";
+import PageLayout from "../../shared/components/PageLayout/PageLayout";
+// import ProductsSearch from "../../shared/components/Products/ProductsSearch/ProductsSearch";
+import ProductsSearch from "../../modules/Products/ProductsSearch/ProductsSearch";
 
 import styles from './OneCategoryPage.module.css';
 

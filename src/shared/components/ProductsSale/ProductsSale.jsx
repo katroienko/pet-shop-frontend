@@ -1,8 +1,8 @@
-import ProductList from "../Products/ProductList/ProductList";
+import ProductList from "../../../modules/Products/ProductList/ProductList";
 import Loader from "../Loader/Loader";
 import LoadingError from "../LoadingError/LoadingError";
 import useFetch from "../../hooks/useFetch";
-import { getProductsAll } from "../../shared/api/products-api";
+import { getProductsAll } from "../../../shared/api/products-api";
 
 function ProductsSale() {
   const {

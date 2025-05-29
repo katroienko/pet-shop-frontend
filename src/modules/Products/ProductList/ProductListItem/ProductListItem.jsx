@@ -1,5 +1,6 @@
 import { backendInstance } from "../../../../shared/api/backendInstance";
-import { BtnBlue } from "../../../BtnBlue/BtnBlue";
+// import { BtnBlue } from "../../../BtnBlue/BtnBlue";
+import { BtnBlue } from "../../../../shared/components/BtnBlue/BtnBlue";
 import { Link } from "react-router-dom";
 
 import styles from "./ProductListItem.module.css";

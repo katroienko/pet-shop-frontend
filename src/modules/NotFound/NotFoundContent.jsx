@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import { BtnBlue } from "../../components/BtnBlue/BtnBlue";
+import { BtnBlue } from "../../shared/components/BtnBlue/BtnBlue";
 
 import styles from './NotFoundContent.module.css';
 
