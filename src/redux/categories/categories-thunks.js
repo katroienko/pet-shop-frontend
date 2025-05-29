@@ -1,4 +1,4 @@
-import { getCategoriesAllApi } from "../../api/categories-api";
+import { getCategoriesAllApi } from "../../shared/api/categories-api";
 import { createAsyncThunk } from "@reduxjs/toolkit";
 
 export const fetchCategories = createAsyncThunk(

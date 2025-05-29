@@ -1,4 +1,4 @@
-import { backendInstance } from "../../api/backendInstance";
+import { backendInstance } from '../../shared/api/backendInstance';
 import styles from './CategoriCart.module.css'
 
 

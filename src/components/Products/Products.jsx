@@ -3,7 +3,7 @@ import { useSearchParams } from "react-router-dom";
 
 import ProductsSearch from "./ProductsSearch/ProductsSearch";
 import ProductList from "./ProductList/ProductList";
-import { getProductsAll } from "../../api/products-api";
+import { getProductsAll } from "../../shared/api/products-api";
 
 import styles from "./Products.module.css";
 

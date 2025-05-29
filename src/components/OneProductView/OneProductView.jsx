@@ -1,7 +1,6 @@
-import { Link } from "react-router-dom";
 import { BtnBlue } from "../BtnBlue/BtnBlue";
+import { backendInstance } from "../../shared/api/backendInstance";
 
-import { backendInstance } from "../../api/backendInstance";
 import styles from "./OneProductView.module.css";
 
 export const OneProductView = ({

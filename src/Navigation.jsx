@@ -6,7 +6,8 @@ import CartPage from "./pages/CartPage/CartPage";
 import NotFoundPage from "./pages/NotFoundPage/NotFoundPage";
 import AllsalesPage from "./pages/allsalesPage/allsalesPage";
 import CategoriesPage from "./pages/categoriesPage/categoriesPage";
-import OneCategoryPage from "./components/Categories/OneCategoryPage/OneCategoryPage";
+// import OneCategoryPage from "./components/Categories/OneCategoryPage/OneCategoryPage";
+import OneCategoryPage from "./pages/OneCategoryPage/OneCategoryPage";
 import OneProductPage from "./pages/OneProductPage/OneProductPage";
 
 const Navigation = ()=> {

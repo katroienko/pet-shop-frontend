@@ -1,6 +1,6 @@
 import { memo } from "react";
 import { Link } from "react-router-dom";
-import { backendInstance } from "../../../api/backendInstance";
+import { backendInstance } from "../../../shared/api/backendInstance";
 import styles from './CartItem.module.css'
 
 const CartItem = ({

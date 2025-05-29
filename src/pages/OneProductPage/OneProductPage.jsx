@@ -1,6 +1,6 @@
 import { memo, useState, useEffect, useCallback } from "react";
 import { useParams } from "react-router-dom";
-import { backendInstance } from "../../api/backendInstance";
+import { backendInstance } from "../../shared/api/backendInstance";
 import { useDispatch, useSelector } from "react-redux";
 import {
   increaseCountInCart,

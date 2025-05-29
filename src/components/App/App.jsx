@@ -3,7 +3,8 @@ import Navigation from "../../Navigation";
 import Navbar from "../Navbar/Navbar";
 import Footer from "../Footer/Footer";
 
-import "../../styles/style.css";
+// import "../../styles/style.css";
+import '../../shared/styles/style.css'
 
 function App() {
 
