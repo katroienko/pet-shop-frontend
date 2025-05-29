@@ -1,19 +1,16 @@
 .categoryWrapper {
   width: 316px;
-  height: 392px;
-  background-color: aliceblue;
 }
 
 .imageWrapper {
   width: 316px;
-  height: 350px;
   overflow: hidden;
 }
 
 .imageWrapper img {
   width: 100%;
   height: 100%;
-  object-fit: cover; /* обрізає картинку пропорційно */
+  object-fit: cover; 
   display: block;
 }
 

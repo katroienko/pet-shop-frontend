@@ -1,17 +1,13 @@
-
 import { useParams, useSearchParams } from "react-router-dom";
 import { useEffect, useState, useCallback } from "react";
 import { useDispatch } from "react-redux";
 import { addToCart } from "../../redux/cart/cart-actions";
-
-// import { getCategorieById } from "../../../api/categories-api";
 import { getCategorieById } from "../../shared/api/categories-api";
-import ProductListItem from "../../modules/Products/ProductList/ProductListItem/ProductListItem";
+import { Breadcrumbs } from "../../shared/components/Breadcrumbs/Breadcrumbs";
 
-// import ProductListItem from "../../shared/components/Products/ProductList/ProductListItem/ProductListItem";
+import ProductListItem from "../../modules/Products/ProductList/ProductListItem/ProductListItem";
 import Title from "../../shared/components/Title/Title";
 import PageLayout from "../../shared/components/PageLayout/PageLayout";
-// import ProductsSearch from "../../shared/components/Products/ProductsSearch/ProductsSearch";
 import ProductsSearch from "../../modules/Products/ProductsSearch/ProductsSearch";
 
 import styles from './OneCategoryPage.module.css';
@@ -34,7 +30,7 @@ const OneCategoryPage = () => {
     setError(null);
     try {
       const filters = Object.fromEntries([...searchParams]);
-      console.log("🔍 Filters:", filters); // 👉 додай цей log
+      console.log("🔍 Filters:", filters);
 
       const response = await getCategorieById(id, filters);
       setCategory(response.data.data.category);
@@ -64,6 +60,13 @@ const OneCategoryPage = () => {
 
   return (
     <PageLayout>
+      <Breadcrumbs
+        items={[
+          { label: 'Main page', to: '/' },
+          { label: 'Categories', to: '/categories' },
+          { label: category?.title },
+        ]}
+      />
       <Title>{category.title}</Title>
       <ProductsSearch submitForm={onSearch} />
       <ul className={styles.list}>
