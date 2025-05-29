@@ -3,7 +3,7 @@ import { persistReducer } from "redux-persist";
 import storage from "redux-persist/lib/storage";
 
 import cartReducer from "./cart/cart-reducer";
-import categoriesReducer from './categories/categoriesSlice'
+import categoriesReducer from './categories/categories-slice'
 
 const rootReducer = combineReducers({
     cart: cartReducer,

@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import {fetchCategories}  from "../../redux/categories/categoriesThunk";
+import {fetchCategories}  from "../../redux/categories/categories-thunks";
 
 import Loader from "../Loader/Loader";
 import LoadingError from "../LoadingError/LoadingError";

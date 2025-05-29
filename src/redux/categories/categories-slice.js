@@ -1,5 +1,5 @@
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
-import { fetchCategories } from "./categoriesThunk";
+import { fetchCategories } from "./categories-thunks";
 
 const categoriesSlice = createSlice({
   name: "categories",
