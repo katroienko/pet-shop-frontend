@@ -1,6 +1,7 @@
 
 import { useForm } from "react-hook-form";
- import { BtnBanner } from "../BtnBanner/BtnBanner";
+import { BtnBanner } from "../BtnBanner/BtnBanner";
+
 import styles from "./ElementDiscountForm.module.css";
 
 export const ElementDiscountForm = ({ onOrderPlaced }) => {
@@ -23,9 +24,8 @@ export const ElementDiscountForm = ({ onOrderPlaced }) => {
       <div className={styles.content}>
         <img
           className={styles.image}
-          alt="Image"
-          // src="https://c.animaapp.com/matmpppmv4vIJH/img/image.svg"
-          src='src\assets\dogsform.png'
+          alt="dogsForm"
+          src='public/dogsform.png'
         />
 
         <form onSubmit={handleSubmit(onSubmit)} className={styles.form}>
@@ -82,7 +82,7 @@ export const ElementDiscountForm = ({ onOrderPlaced }) => {
           <BtnBanner
             className={styles["btn-banner-instance"]}
             property="normal"
-            type="submit" 
+            type="submit"
             text="Get a discount"
           />
         </form>
