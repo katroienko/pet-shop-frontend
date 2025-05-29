@@ -4,14 +4,15 @@ import ArrowForwardIosOutlinedIcon from "@mui/icons-material/ArrowForwardIosOutl
 
 import styles from "./ProductListPagination.module.css";
 
-const ProductListPagination = ({ totalPages, onPrevPage, onNextPage, setCurrentPage, currentPage })=> {
-    const paginationElements = Array(totalPages)
+const ProductListPagination = ({ totalPages, onPrevPage, onNextPage, setCurrentPage, currentPage }) => {
+  const paginationElements = Array(totalPages)
     .fill()
     .map((_, index) => {
       const pageNumber = index + 1;
       return (
         <div
-        className={pageNumber === currentPage ? styles.active : ""}
+          key={pageNumber} // 🔹 Обязателен для элементов в списке
+          className={pageNumber === currentPage ? styles.active : ""}
           onClick={() => setCurrentPage(pageNumber)}
         >
           {pageNumber}
@@ -19,17 +20,17 @@ const ProductListPagination = ({ totalPages, onPrevPage, onNextPage, setCurrentP
       );
     });
 
-    return (
-      <div className={styles.pagination}>
-        <IconButton onClick={onPrevPage}>
-          <ArrowBackIosNewOutlinedIcon />
-        </IconButton>  
-        {paginationElements}
-        <IconButton onClick={onNextPage}>
-          <ArrowForwardIosOutlinedIcon />
-        </IconButton>
-      </div>
-    )
-}
+  return (
+    <div className={styles.pagination}>
+      <IconButton onClick={onPrevPage}>
+        <ArrowBackIosNewOutlinedIcon />
+      </IconButton>
+      {paginationElements}
+      <IconButton onClick={onNextPage}>
+        <ArrowForwardIosOutlinedIcon />
+      </IconButton>
+    </div>
+  );
+};
 
 export default ProductListPagination;
