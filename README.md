@@ -1,12 +1,25 @@
-# React + Vite
+**Why this project matters**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Problem.** Educational e-commerce demos are often static: filtering breaks on page reload, state can’t be shared via link, and the UI doesn’t scale well.
 
-Currently, two official plugins are available:
+**Solution.** Pet Shop is a fully functional storefront frontend: reliable filtering with backend requests, search parameters stored in the URL (shareable links), a shopping cart, and checkout with modal confirmation.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Result.** Fast product selection in just 2–3 clicks, easy sharing of filtered results, and an architecture designed for future growth (new filters/categories, alternative data sources).
 
-## Expanding the ESLint configuration
+## 🧱 Architecture
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+src/
+api/ # HTTP client, API requests, decorators
+components/ # Reusable UI components
+features/ # Redux slices: products/, categories/, cart/
+hooks/ # Custom hooks: useFetch, usePagination, etc.
+pages/ # Main pages: Catalog, Product, Cart, Checkout
+styles/ # CSS Modules and MUI overrides
+utils/ # Helpers: URL/query handling, data formatting
+
+
+### Principles
+- Clear separation of concerns (**UI ↔ state ↔ data layer**)  
+- Reusable components and hooks for scalability  
+- URL-based state for filters (**shareable, SEO-friendly**)  
+- Performance optimization with memoization (`React.memo`, `useMemo`, `useCallback`)
